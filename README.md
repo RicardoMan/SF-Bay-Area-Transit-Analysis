@@ -4,36 +4,35 @@
 
 # SF Bay Area Transit Efficiency Analysis
 
-## 🎯 Overview
+## Overview
 Analysis of 2.17M GPS records from SF Muni and AC Transit revealing $1.38M in daily operational waste.
 
-## 📊 Key Findings
+## Key Findings
 - **Daily waste:** $1,383,687
 - **Idle time:** 61% (vs 25% baseline)
 - **Annual projection:** $348.7M
 - **ML accuracy:** 81.5%
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Python (pandas, scikit-learn, XGBoost)
 - SQLite
 - Kepler.gl
 - LaTeX
 
-## 📁 Files
+##  Files
 - `analysis.ipynb` - Full Jupyter notebook
 - `report.pdf` - Technical report
 - `data/` - Data collection scripts
 - `viz/` - Visualizations
 
-## 📍 Data Source
+## Data Source
 [511.org](https://511.org/open-data/transit) - Bay Area public transit API
 
-## 🚀 Run Analysis
+## Run Analysis
 ```bash
 pip install -r requirements.txt
 python collect_data.py
 jupyter notebook analysis.ipynb
 ```
 
-## 📬 Contact
-[Your LinkedIn] | [Your Email]
+
